@@ -19,4 +19,6 @@ public class third {
         System.out.println("The avg of the numbers is: " + ((first + second + third)/3));
     }
 }
-//The avg was returning as 4 instead of 4.3333 so i made the inputs into floats so that the output is not rounded
+/*The avg was returning as 4 instead of 4.3333
+so i made the inputs into floats so that the output is not rounded
+ */
