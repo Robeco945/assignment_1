@@ -19,6 +19,5 @@ public class Cat {
         cat1.meow();
         cat2.meow();
         cat1.meow();
-
     }
 }
