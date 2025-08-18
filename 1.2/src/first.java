@@ -6,7 +6,6 @@ public class first {
 
         System.out.print("Enter your temperature in fahrenheit ");
         double tempF = Integer.parseInt(scanner.nextLine());
-
         System.out.println("Temp in Celsius: " + (tempF - 32)*5/9);
     }
 }
