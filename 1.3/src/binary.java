@@ -5,15 +5,23 @@ public class binary {
         System.out.println("give me a binary: ");
         String bina = (scanner.nextLine());
         int i = bina.length();
-        while (i>=0) {
-            int j = Integer.parseInt(String.valueOf(bina.charAt(i-1)));
+        double deci = 0;
+        int count = 0;
 
-            //int decimal =
-            System.out.println("i: "+i);
-            System.out.println("j:"+j);
-            i--;
+        for (int j = i-1; j>=0 ;j--) {
+            char chara = bina.charAt(count);
+            int number = chara - '0';
+            double decimal = (number*(Math.pow(2,j)));
+            //System.out.println("char:"+ chara);
+            //System.out.println("dec:"+ decimal);
+            //System.out.println("j:"+ j);
+            //System.out.println("count:"+ count);
+            //System.out.println();
+            deci += decimal;
+            count ++;
+            //System.out.println("number: "+ number);
+            //System.out.println("i: "+ i);
         }
-
-
+System.out.println("real decimal: " + deci);
         }
     }
