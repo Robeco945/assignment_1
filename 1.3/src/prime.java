@@ -13,30 +13,21 @@ public class prime {
                 break;
             }
         }
-        for (int n = start - 1; n <= end; n++) {
+        for (int n = start; n <= end; n++) {
+            if (n <= 1){continue;}
+            boolean isprime = true;
             for (int i = 2; i <= n - 1; i++) {
-                if (n % i != 0) {
-                    System.out.println(n);
+                if (n % i == 0) {
+                    isprime = false;
+                    //System.out.println(n);
                     //System.out.println("i "+i);
-                    break;
-
-
+                    break;}}
+                if (isprime) {
+                    System.out.println(n);
             }
-
         }
     }
-}}
-
-
-  /*for (int i = 2; i <= number - 1; i ++ ){
-        if (number % i == 0){
-            System.out.println(number + " is not a prime number");
-        }
-        else {System.out.println(number + " is an alpha male wolf");
-    }}
-}}*/
-
-
+}
 
 
 
