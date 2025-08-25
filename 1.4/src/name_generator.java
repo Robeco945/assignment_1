@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.util.Random;
 public class name_generator {
-    public static void main(String arg[]) {
+    public static void main(String[] arg) {
         Scanner scanner = new Scanner(System.in);
         Random r = new Random();
         System.out.println("Random name generator ");
