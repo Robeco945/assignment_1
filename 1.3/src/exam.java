@@ -8,7 +8,7 @@ public class exam {
             for (int i = 1; i < 11; i++) {
                 int number = (int) (Math.random() * 10) + 1;
                 int number2 = (int) (Math.random() * 10) + 1;
-                System.out.println(i + ": " + number + "*" + number2 + "=");
+                System.out.print(i + ": " + number + "*" + number2 + "=");
                 int answer = Integer.parseInt((scanner.nextLine()));
                 if (answer == number * number2) {
                     score++;
