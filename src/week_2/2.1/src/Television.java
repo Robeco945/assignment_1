@@ -1,23 +1,27 @@
 public class Television {
     private boolean isOn;
-    private int Channel;
+    private int channel;
 
 
-    public Television(boolean isOn, int Channel){
-        this.isOn = isOn;
-        this.Channel = Channel;
+    public Television(){
+        this.isOn = false;
+        this.channel = 1;
     }
-    Television television = new Television(true,1);
     public int getChannel(){
-        return Channel;
+        return channel;
     }
-    public boolean getIsOn(){
+    public boolean isOn(){
         return isOn;
     }
-    public setChannel(int){
-        Channel = Channel;
-    public void new Television()
-
+    public void pressOnOff() {
+        if (!isOn) {isOn = true;
+        }
+        else {isOn = false;
         }
     }
-}
+    public void setChannel(int newChannel) {
+        channel = newChannel;
+    }
+    
+        }
+
