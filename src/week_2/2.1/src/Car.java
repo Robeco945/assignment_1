@@ -51,4 +51,9 @@ public class Car {
     double getGasolineLevel() {
         return gasolineLevel;
     }
+    public void cruiseControll(int speed) {
+        boolean isOn;
+        System.out.println("Current target speed is "+speed);
+
+    }
 }
