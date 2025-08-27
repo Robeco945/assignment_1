@@ -15,15 +15,15 @@ public class GroceryListManager {
     public boolean checkItem(String item) {
         boolean dupe = false;
         for (int i = 0; i < groceryList.size(); i++) {
-                if (groceryList.get(i).equals(item)) {
-                    dupe = true;
-                    break;
-                }
+            if (groceryList.get(i).equals(item)) {
+                dupe = true;
+                break;
+            }
         }
         System.out.println("Is "+item+" in the list? " + dupe);
         return dupe;
     }
-public static void main(String[] args){
+    public static void main(String[] args){
         GroceryListManager groceryListManager = new GroceryListManager();
         groceryListManager.addItem("cabbage");
         groceryListManager.addItem("carrot");
@@ -33,5 +33,5 @@ public static void main(String[] args){
         groceryListManager.removeItem("cabbage");
         {System.out.println("Updated list: ");}
         groceryListManager.displayList();
-}
+    }
 }
