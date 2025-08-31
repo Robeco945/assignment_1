@@ -2,12 +2,12 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-public class GroceryListManager2 {
+public class GroceryListManager3 {
     //private ArrayList<String> groceryList = new ArrayList<>();
     static Map<String, Double> groceryList = new HashMap<>();
 
-    public static void addItem(String item, double price) {
-        groceryList.put(item, price);
+    public static void addItem(String item, double price, String category) {
+        groceryList.put(item, price, category);
     }
     public static void removeItem(String item) {
         groceryList.remove(item);
@@ -16,7 +16,8 @@ public class GroceryListManager2 {
         return groceryList;
     }
     public static boolean checkItem(String item) {
-        boolean hasItem = groceryList.containsKey(item);
+        boolean hasItem = groceryList.containsKey("banana");
+        System.out.println("Does banana exist? " + hasItem);
         return hasItem;
     }
     public static double calculateTotalCost() {
@@ -38,14 +39,14 @@ public class GroceryListManager2 {
 
 
     public static void main(String[] args){
-        GroceryListManager2 groceryListManager = new GroceryListManager2();
-        GroceryListManager2.addItem("cabbage", 2.99);
-        GroceryListManager2.addItem("carrot", 1.99);
-        GroceryListManager2.addItem("candy cane",0.99);
-        System.out.println("Grocery list: "+GroceryListManager2.displayList());
-        System.out.println("Does "+item+" exist? " + GroceryListManager2.checkItem(item));
-        GroceryListManager2.removeItem("cabbage");
-        System.out.println("Updated list: "+GroceryListManager2.displayList());
-        System.out.println("total price of all items: "+GroceryListManager2.calculateTotalCost());
+        GroceryListManager3 groceryListManager = new GroceryListManager3();
+        GroceryListManager3.addItem("cabbage", 2.99, vegetable);
+        GroceryListManager3.addItem("carrot", 1.99, vegetable);
+        GroceryListManager3.addItem("candy cane",0.99, candy);
+        System.out.println("Grocery list: "+GroceryListManager3.displayList());
+        GroceryListManager3.checkItem("banana");
+        GroceryListManager3.removeItem("cabbage");
+        System.out.println("Updated list: "+GroceryListManager3.displayList());
+        System.out.println("total price of all items: "+GroceryListManager3.calculateTotalCost());
 
-}}
+    }}
