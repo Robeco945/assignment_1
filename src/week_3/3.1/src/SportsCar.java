@@ -24,7 +24,5 @@ public class SportsCar extends Car {
         else {
             super.decelerate((int)getSpeed());
         }
-
-
     }
 }
