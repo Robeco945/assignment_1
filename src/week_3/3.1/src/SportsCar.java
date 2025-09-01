@@ -10,9 +10,10 @@ public class SportsCar extends Car {
             super.accelerate();
             super.accelerate();
             super.accelerate();
+            consumeGas();
         }
         else {
-            super.decelerate((int)speed);
+            super.decelerate((int)getSpeed());
         }
     }
     @Override
@@ -21,14 +22,9 @@ public class SportsCar extends Car {
             super.decelerate(amount*2);
         }
         else {
-            super.decelerate((int)speed);
+            super.decelerate((int)getSpeed());
         }
-    }
-    protected void consumeGas() {
-        if (gasolineLevel >= 15) {
-            gasolineLevel = -15;
-        }
-        else {gasolineLevel = 0;
-        }
+
+
     }
 }

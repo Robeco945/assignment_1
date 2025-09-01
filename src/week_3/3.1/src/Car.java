@@ -6,16 +6,16 @@ public class Car {
      * Both are private (they can not be accessed outside the class methods).
      * Keep instance variables private whenever possible.
      */
-    public double speed;
-    public double gasolineLevel;
-    public String typeName;
-    public int maxGasTank;
+    private double speed;
+    private double gasolineLevel;
+    private String typeName;
+    private int maxGasTank;
 
     /* This is the method (constructor) called when a new instance of Car is created (with new).
      * Constructors may also have arguments.
      */
     public Car(String typeName, double speed, int maxGasTank, int gasolineLevel) {
-        gasolineLevel = 0;
+        this.gasolineLevel = gasolineLevel;
         this.typeName = typeName;
         this.speed = speed;
         this.maxGasTank = maxGasTank;// this refers to the object itself.
@@ -54,6 +54,10 @@ public class Car {
     public void cruiseControll(int speed) {
         boolean isOn;
         System.out.println("Current target speed is "+speed);
-
+    }
+    public void consumeGas() {
+        if (getGasolineLevel() >= 15) {
+            gasolineLevel -= 15;
+        }
     }
 }
