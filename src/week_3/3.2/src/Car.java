@@ -1,4 +1,4 @@
-public class Car extends AbstractClass{
+public class Car extends AbstractVehicle {
     private int wheels;
     public Car(int wheels, String color){
         super(color);

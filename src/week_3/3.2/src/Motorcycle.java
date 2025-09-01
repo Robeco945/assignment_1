@@ -1,4 +1,4 @@
-public class Motorcycle extends AbstractClass{
+public class Motorcycle extends AbstractVehicle {
     private int wheels;
     public Motorcycle (int wheels, String color){
         super(color);
@@ -14,4 +14,6 @@ public class Motorcycle extends AbstractClass{
         wheels += 2;
         return wheels;
     }
+
+
 }

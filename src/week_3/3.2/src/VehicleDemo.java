@@ -6,8 +6,15 @@ public class VehicleDemo {
             mybus = new Bus(6,"red");
             Motorcycle mymotor;
             mymotor = new Motorcycle(2, "black");
+            ElectricCar byd;
+            byd = new ElectricCar(4,100,"gray");
+            byd.start();
+            byd.punctureBattery();
+            byd.charge();
+        System.out.println(byd.getInfo());
             mycar.start();
             mycar.stop();
+            mycar.charge();
 
             System.out.println(mycar.getInfo());
         mycar.moreWheels();
