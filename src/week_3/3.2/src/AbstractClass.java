@@ -3,5 +3,5 @@ abstract class AbstractClass implements Vehicle{
     public AbstractClass(String color){
         this.color= color;
     }
-    abstract int moreWheels();
+    public abstract int moreWheels();
 }
