@@ -11,7 +11,9 @@
       <module fileurl="file://$PROJECT_DIR$/src/week_2/2.3/2.3.iml" filepath="$PROJECT_DIR$/src/week_2/2.3/2.3.iml" />
       <module fileurl="file://$PROJECT_DIR$/src/week_3/3.1/3.1.iml" filepath="$PROJECT_DIR$/src/week_3/3.1/3.1.iml" />
       <module fileurl="file://$PROJECT_DIR$/src/week_3/3.2/3.2.iml" filepath="$PROJECT_DIR$/src/week_3/3.2/3.2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../orientation_tasks/OrientationTasks/OrientationTasks.iml" filepath="$PROJECT_DIR$/../orientation_tasks/OrientationTasks/OrientationTasks.iml" />
       <module fileurl="file://$PROJECT_DIR$/assignments.iml" filepath="$PROJECT_DIR$/assignments.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../orientation_tasks/OrientationTasks/orientation1.1/orientation1.1.iml" filepath="$PROJECT_DIR$/../orientation_tasks/OrientationTasks/orientation1.1/orientation1.1.iml" />
       <module fileurl="file://$PROJECT_DIR$/src/week_1/week_1.iml" filepath="$PROJECT_DIR$/src/week_1/week_1.iml" />
       <module fileurl="file://$PROJECT_DIR$/src/week_2/week_2.iml" filepath="$PROJECT_DIR$/src/week_2/week_2.iml" />
     </modules>
