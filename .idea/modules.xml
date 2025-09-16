@@ -14,12 +14,14 @@
       <module fileurl="file://$PROJECT_DIR$/src/week_3/3.3/3.3.iml" filepath="$PROJECT_DIR$/src/week_3/3.3/3.3.iml" />
       <module fileurl="file://$PROJECT_DIR$/src/week_3/3.4/3.4.iml" filepath="$PROJECT_DIR$/src/week_3/3.4/3.4.iml" />
       <module fileurl="file://$PROJECT_DIR$/src/week_3/AI/4.iml" filepath="$PROJECT_DIR$/src/week_3/AI/4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/week_4/4.1/4.1.iml" filepath="$PROJECT_DIR$/src/week_4/4.1/4.1.iml" />
       <module fileurl="file://$PROJECT_DIR$/../orientation_tasks/OrientationTasks/OrientationTasks.iml" filepath="$PROJECT_DIR$/../orientation_tasks/OrientationTasks/OrientationTasks.iml" />
       <module fileurl="file://$PROJECT_DIR$/assignments.iml" filepath="$PROJECT_DIR$/assignments.iml" />
       <module fileurl="file://$PROJECT_DIR$/../orientation_tasks/OrientationTasks/orientation1.1/orientation1.1.iml" filepath="$PROJECT_DIR$/../orientation_tasks/OrientationTasks/orientation1.1/orientation1.1.iml" />
       <module fileurl="file://$PROJECT_DIR$/../orientation_tasks/OrientationTasks/orientation3/orientation3.iml" filepath="$PROJECT_DIR$/../orientation_tasks/OrientationTasks/orientation3/orientation3.iml" />
       <module fileurl="file://$PROJECT_DIR$/src/week_1/week_1.iml" filepath="$PROJECT_DIR$/src/week_1/week_1.iml" />
       <module fileurl="file://$PROJECT_DIR$/src/week_2/week_2.iml" filepath="$PROJECT_DIR$/src/week_2/week_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/week_4/week_4.iml" filepath="$PROJECT_DIR$/src/week_4/week_4.iml" />
     </modules>
   </component>
 </project>
