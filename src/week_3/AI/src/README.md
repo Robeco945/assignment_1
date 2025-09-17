@@ -3,7 +3,7 @@ the program is a basic calculator java program which sums and returns positive i
 This is a simple calculator program that sums two positive integers. If the result is negative, it will display an error message.
 ## Features
 
-
+```
     public int add(int a, int b) {
     //use try catch instead of throw new IllegalArgumentException
     try {
@@ -24,6 +24,7 @@ This is a simple calculator program that sums two positive integers. If the resu
         }
         return a + b;
     }
+```
 1. The `add` method takes two integers, `a` and `b`, as input.
 2. It checks if either `a` or `b` is negative. If so, it throws an `IllegalArgumentException`.
 3. If both integers are non-negative, it returns their sum.
@@ -31,8 +32,7 @@ This is a simple calculator program that sums two positive integers. If the resu
 5. The program ensures that only positive integers are summed, and handles errors gracefully.- Sums two positive integers
 - Returns an error message if the sum is negative
 - Resets the calculator to zero
-
-
+```
     public int calculatorToZero(){
     return 0;
     }
@@ -44,6 +44,7 @@ This is a simple calculator program that sums two positive integers. If the resu
     public int getCurrentValue(int a){
     return a;
     }
+```    
 expplanation of the code:
 1. The `calculatorToZero` method resets the calculator to zero by returning 0.
 2. The `addToCalculator` method takes an integer `a` and returns it, simulating adding it to the calculator.
