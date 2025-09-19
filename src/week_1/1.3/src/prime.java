@@ -4,7 +4,7 @@ public class prime {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the starting number");
         int start = Integer.parseInt((scanner.nextLine()));
-        System.out.println("Enter the ending number (must be larger than the starting number");
+        System.out.println("Enter the ending number (must be larger than the starting number)");
         int end = Integer.parseInt((scanner.nextLine()));
         while (end <= start) {
             System.out.println("please enter a number that is larger than the staring number");
